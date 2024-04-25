@@ -31,7 +31,7 @@ const Index = () => {
             </Button>
           </Link>
         </VStack>
-        <Button leftIcon={<FaGamepad />} colorScheme="purple" size="lg" _hover={{ transform: "scale(1.05)" }}>
+        <Button leftIcon={<FaGamepad />} colorScheme="purple" size="lg" _hover={{ transform: "scale(1.05)" }} onClick={() => (window.location.href = "/game")}>
           Play Interactive Game
         </Button>
       </Flex>
