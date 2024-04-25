@@ -16,22 +16,22 @@ const Index = () => {
         </Text>
         <VStack spacing={3} mb={5}>
           <Link href="https://twitter.com/michaelgruen" isExternal>
-            <Button leftIcon={<FaTwitter />} colorScheme="twitter">
+            <Button leftIcon={<FaTwitter />} colorScheme="twitter" _hover={{ transform: "scale(1.05)" }}>
               Twitter
             </Button>
           </Link>
           <Link href="https://linkedin.com/in/michaelgruen" isExternal>
-            <Button leftIcon={<FaLinkedin />} colorScheme="linkedin">
+            <Button leftIcon={<FaLinkedin />} colorScheme="linkedin" _hover={{ transform: "scale(1.05)" }}>
               LinkedIn
             </Button>
           </Link>
           <Link href="https://instagram.com/michaelgruen" isExternal>
-            <Button leftIcon={<FaInstagram />} colorScheme="pink">
+            <Button leftIcon={<FaInstagram />} colorScheme="pink" _hover={{ transform: "scale(1.05)" }}>
               Instagram
             </Button>
           </Link>
         </VStack>
-        <Button leftIcon={<FaGamepad />} colorScheme="purple" size="lg">
+        <Button leftIcon={<FaGamepad />} colorScheme="purple" size="lg" _hover={{ transform: "scale(1.05)" }}>
           Play Interactive Game
         </Button>
       </Flex>
